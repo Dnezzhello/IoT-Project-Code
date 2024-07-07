@@ -17,6 +17,9 @@ void setup()
 
     // show welcoming message
     welcomMessage();
+
+    // supply power to relay pin
+    pinMode(RELAY, OUTPUT);
 }
 
 void loop()
